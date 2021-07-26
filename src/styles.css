@@ -1,0 +1,177 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0px;
+  background-color: #5971f9;
+  box-shadow: 0 6px 13px -4px rgb(0 0 0 / 25%);
+}
+
+.container {
+  display: flex;
+}
+
+.side-navbar {
+  background-color: white;
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-width: 250px;
+}
+
+.side-nav-element {
+  color: black;
+  position: absolute;
+  left: 80px;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(87deg, #172b4d, #1a174d);
+  opacity: 0.9;
+}
+
+.mask-title {
+  color: white;
+  position: absolute;
+  left: 400px;
+  top: 130px;
+}
+
+.mask-matter {
+  color: white;
+
+  position: absolute;
+  left: 400px;
+  top: 180px;
+  display: block;
+  width: 500px;
+}
+
+.mask-button {
+  letter-spacing: 0.025em;
+  font-size: 0.875rem;
+  background-color: #11cdef;
+  border-color: #11cdef;
+  position: absolute;
+  height: 2rem;
+  left: 400px;
+  top: 250px;
+  border-radius: 1rem;
+}
+
+.mask-container {
+  display: flex;
+}
+
+.container-box {
+  position: absolute;
+  left: 330px;
+  top: 320px;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.15);
+  display: block;
+  height: 110%;
+  width: 50%;
+  background-color: #f7fafc00;
+}
+
+.box-head {
+  justify-content: space-between;
+  display: flex;
+  border-radius: 1rem;
+  width: 100%;
+  height: 4rem;
+  background-color: #f7fafc;
+}
+
+.box-head-element {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  color: rgba(0, 0, 0, 0.329);
+  background-color: rgb(245, 245, 245);
+  box-shadow: 0 1px 3px rgb(50 50 93 / 55%), 0 1px 0 rgb(0 0 0 / 2%);
+  border: 0;
+  transition: box-shadow 0.15s ease;
+  height: 2rem;
+}
+
+hr {
+  border-top: 1px solid whitesmoke;
+}
+.side-container-box {
+  position: absolute;
+  left: 700px;
+  top: 50px;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.15);
+  display: block;
+  height: 50%;
+  width: 40%;
+  background-color: #f7fafc00;
+}
+
+.card-profile-image {
+  width: 100%;
+  height: 30%;
+}
+.rounded-circle {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 60%;
+  right: 35px;
+  bottom: 280px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 70px;
+}
+
+.professional {
+  width: 100%;
+  height: 140px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fot {
+  margin-top: 5rem;
+
+  width: 150%;
+  height: 50px;
+
+  display: block;
+
+  background: linear-gradient(87deg, #172b4d, #1a174d) !important;
+  opacity: 0.9;
+  box-shadow: 0 6px 13px -4px rgb(0 0 0 / 25%);
+}
